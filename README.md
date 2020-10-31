@@ -4,14 +4,20 @@ Problem Statement
 The dataset from the Autolib Autolib electric car-sharing service company to investigate a claim about the blue cars. The main aim will be manifested on the blue cars returned, taken and the slots freed.
 The null and alternate hypothesis will be are varying in the tests conducted as stated in the notebook as follows:
 
+
 Normal distribution.
 Ho = the data is normally distributed
 H1 = the data is not normally distributed
- Correlation test
+
+
+Correlation test
 Ho = there is no correlation between the blue cars taken and the slots freed
 H1 = there is a correlation between the blue cars taken and the slots freed
 
+
+
 Parametric test
+
 T Test
 i) One-Sample T-test
 Ho = there is no difference between the sample and the population
@@ -19,6 +25,8 @@ H1 = there is a difference between the sample and the population
 ii) Two-sample T-test
 H0 = there is no statistical difference between the sample means and the population
 H1 = there is a statistical difference between the sample means and the population
+
+
 Non parametric test
 Chi-squared goodness of fit
 H0 = A variable follows a hypothesized distribution.
@@ -44,11 +52,14 @@ Ho = the data is normally distributed
 H1 = the data is not normally distributed
 
 From the shapiro wilk test we have proved that the data is not normally distributed having a very low p-value of 0.000000000136620256774300230518 and hence not a normal distribution. Thus the alternative hypothesis is adopted.
+
+
 Correlation test
 Ho = there is no correlation between the blue cars taken and the slots freed
 H1 = there is a correlation between the blue cars taken and the slots freed
 
 The spearman's correlation proves that there is a correlation between the blue cars taken and the slots freed thus adopt the null hypothesis, since the p value is very low 0.000000242460231543382547268951.
+
 
 
 Parametric test
@@ -59,15 +70,21 @@ H1 = there is a difference between the sample and the population
 
 we're going to reject the null hypothesis sice the p value is greater than 0.05. Thus there is a significant difference between the sample and the population mean with a p-value of 0.923813815922726.
 
+
+
 ii) Two-sample T-test
 H0 = there is no statistical difference between the sample means and the population
 H1 = there is a statistical difference between the sample means and the population
 
 From the results obtained there is no statistical difference between the sample mean and the population mean since the p value is greater than 0.05.Thus adopting the alternate hypothesis. with a p-value of 0.8701932846861928
 
+
+
 Point Estimation
 
 On the point estimation it was concluded that,  based on a sample of 100 blue cars taken, our estimator underestimates the true mean by -15.338293650793275. We can conclude that we can get a fairly accurate estimate of a large population from a fairly small subset.
+
+
 
 Non parametric test
 Chi-squared goodness of fit
@@ -76,12 +93,16 @@ H1 = A variable does not follow a hypothesized distribution.
 
 Since the p-value (0.8128461413277058) is not less than 0.05, we fail to reject the null hypothesis. This means we do not have sufficient evidence to say that the true distribution blue cars taken is different from the distribution of the cars returned.
 
+
+
 Discussion of Test Sensitivity
 A Chi-Square Goodness of Fit Test is used to determine whether a variable follows a hypothesized distribution.
 
 The test used the entire column as its bin size which lead to the following conclusion:
 
 Since the p-value (0.8128461413277058) is not less than 0.05, we fail to reject the null hypothesis. This means we do not have sufficient evidence to say that the true distribution blue cars taken is different from the distribution of the cars returned.
+
+
 
 Summary and Conclusions
 The hypothesis process was carried out using several tests which gave conclusions on reference to the P-values.
